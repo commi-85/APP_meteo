@@ -1,0 +1,58 @@
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url('image/img2.avif');
+    background-size: cover; /* Permet à l'image de couvrir tout l'arrière-plan */
+    background-position: center; /* Centrer l'image sur la page */
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 80%; /* Prend toute la hauteur de la fenêtre */
+    margin: 0; /* Annule les marges par défaut du body */
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+/* Styles généraux pour le formulaire */
+form {
+    margin: 10px auto; /* Centrer les formulaires */
+    width: 300px; /* Largeur fixe */
+    padding: 10px;
+    border: 1px solid #ccc; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: #f9f9f9; /* Fond légèrement gris */
+}
+
+/* Style pour les inputs */
+input[type="text"] {
+    width: 90%; /* Prend toute la largeur */
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+/* Style pour les boutons */
+button {
+    width: 100%; /* Prend toute la largeur */
+    padding: 10px;
+    background-color: #3498db; /* Bleu pour le bouton */
+    color: white; /* Texte blanc */
+    border: none; /* Supprime les bordures */
+    border-radius: 4px; /* Coins arrondis */
+    font-size: 1rem; /* Taille du texte */
+    cursor: pointer; /* Change le curseur au survol */
+}
+
+/* Changement de couleur au survol */
+button:hover {
+    background-color: #2980b9; /* Bleu plus foncé */
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title> App Météo </title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1> Welcome to your weather app </h1>
+        </nav>
+    </header>
+
+    <main>
+        <div id="form1">
+            <form id="weatherForm">
+               
+                        <label for="ville">Ville&nbsp;:</label>
+                        <input type="text" id="ville" data-ville="user_ville" />
+                   
+                <button type="submit">Chercher</button>
+            </form>
+        </div>
+
+        <div>
+            <form>
+                
+                        <label for="longitude">Longitude&nbsp;:</label>
+                        <input type="text" id="long" data-longitude="user_longitude" />
+                 
+            </form>
+        </div>
+
+        <div>
+            <form>
+               
+                        <label for="latitude">latitude&nbsp;:</label>
+                        <input type="text" id="latitude" data-latitude="user_latitude" />
+                  
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <!-- Assurez-vous que le script est bien référencé -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
